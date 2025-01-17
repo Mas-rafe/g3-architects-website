@@ -111,6 +111,18 @@
     .photo-container{
         flex-direction: column;
     }
-
+    .photos{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+   }
+   @media screen and (min-width:576px) and (max-width:792px) {
+    .photos{
+        flex-direction: column;
+    }
+    .details{
+        margin: 50px auto;
+    }
     
    }
