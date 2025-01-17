@@ -6,3 +6,111 @@
     font-weight: 400px;
     font-style: normal;
   }
+  .navbar{
+    align-items: center;
+    justify-content: space-between;
+  }
+  .brand{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+.display-flex{
+    display: flex;
+     }
+    .nav-item{
+        list-style: none;
+        margin-right: 30px;
+    }
+ .nav-link{
+    text-decoration: none;
+ }
+ /*dark-2*/
+ .text-gray{
+    color: #424242;
+ }
+ /*dark-3*/
+ .text-light-gray{
+    color: #727272;
+
+ }
+ .navbar,.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+ .banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ .banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+ }
+ .btn-primary{
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size:1.25rem ;
+    border-radius: 8px;
+    border: none;
+ }
+ .banner img{
+    width: 100%;
+ }
+ @media screen and (max-width:576px) {
+    .navbar , .nav-links{
+        flex-direction: column;
+    }
+    
+ }
+ /*part quick list of our features*/
+ .main{
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+ .photo-container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+ }
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+   }
+   main > section{
+    margin-top: 22px;
+   }
+   .details{
+    margin-left: 73px;
+    max-width: 537px;
+   }
+/*heading design*/
+.quick{
+    color: #727272;
+   }
+   .of{
+   color: #131313;
+   }
+   .features{
+   color: #FF900E;
+   }
+   .heading{
+       font-size: 45px;
+       font-weight: mixed;
+   }
+   .description{
+    font-size: 16px;
+    color: #727272;
+   }
+   @media screen and (max-width:576px){
+    .photo-container{
+        flex-direction: column;
+    }
+
+    
+   }
